@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="UtilsLayer.ListenerClass"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="BDDtEST">
   <classes>
   <class name="StepDefination.HomePageTest"></class>
   <class name="StepDefination.BankManagerPageTest"></class>
