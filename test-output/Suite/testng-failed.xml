@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="StepDefination.BankManagerPageTest">
+        <methods>
+          <include name="new_customer_popup_generated"/>
+          <include name="user_click_on_process_button"/>
+          <include name="user_select_the_customer_name"/>
+          <include name="user_enters_the_first_name_as_and_last_name_as"/>
+          <include name="user_enters_the_postal_code_as"/>
+          <include name="select_a_currency_as"/>
+          <include name="success_pop_generated"/>
+        </methods>
+      </class> <!-- StepDefination.BankManagerPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
